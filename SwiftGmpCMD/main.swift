@@ -1,5 +1,5 @@
 //
-//  main.swift.swift
+//  main.swift
 //  SwiftGmpCMD
 //
 //  Created by Joachim Neumann on 27.09.24.
@@ -42,23 +42,15 @@ if cmdArgs.count == 1 {
     version()
 
     writeToStderr("ready to calculate:")
-    var tokenizer = Tokenizer()
+    let calculator = Calculator(precision: 20)
 
     while true {
         if let instr = readLine() {
             if instr.uppercased() == "EXIT" {
                 exit(EXIT_SUCCESS)
             }
-            do {
-                let tokens = try tokenizer.parse(instr)
-                if tokens.count > 0 {
-                    writeToStdout(tokens.debugDescription)
-                }
-            } catch {
-                if let error = error as? TokenizerError {
-                    writeToStderr(error.localizedDescription)
-                }
-            }
+            let result = calculator.calc(instr)
+            writeToStdout(result)
         }
     }
     exit(EXIT_SUCCESS)

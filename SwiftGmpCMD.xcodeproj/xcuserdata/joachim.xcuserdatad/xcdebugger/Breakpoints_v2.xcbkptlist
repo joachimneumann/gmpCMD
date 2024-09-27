@@ -7,8 +7,24 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "F2EE377B-9411-4610-BEC4-0B8240BB4227"
-            shouldBeEnabled = "No"
+            uuid = "334F8A32-57BB-46C2-9C49-6457197A3CE2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../SwiftGmp/Sources/SwiftGmp/Tokenizer.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "184"
+            endingLineNumber = "184"
+            landmarkName = "parse(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F671205A-971F-4E83-9D11-20ADB986A128"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../SwiftGmp/Sources/SwiftGmp/Tokenizer.swift"
@@ -16,164 +32,24 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "172"
             endingLineNumber = "172"
-            landmarkName = "parse(_:)"
+            landmarkName = "canBeNumber(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "CE9F0FCD-4F4E-4142-9F4F-FBFAD5644629"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../SwiftGmp/Sources/SwiftGmp/Tokenizer.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "118"
-            endingLineNumber = "118"
-            landmarkName = "init()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "7DFAE1D5-AA0C-48D3-92F9-10CA7C951BFC"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../SwiftGmp/Sources/SwiftGmp/Tokenizer.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "166"
-            endingLineNumber = "166"
-            landmarkName = "parse(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "81D78CDA-D4F6-46EC-8B43-E8E8CFD90B85"
+            uuid = "4DACE9D4-9AE3-462E-BACE-2DF67F6FD224"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../SwiftGmp/Sources/SwiftGmp/Tokenizer.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "173"
-            endingLineNumber = "173"
-            landmarkName = "parse(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "F7BD7980-AFC4-4D58-8419-8A1AEBF68E63"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../SwiftGmp/Sources/SwiftGmp/Tokenizer.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "189"
-            endingLineNumber = "189"
-            landmarkName = "parse(_:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "F7BD7980-AFC4-4D58-8419-8A1AEBF68E63 - 15f67d2f81737820"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "SwiftGmp.Tokenizer.parse(Swift.String) throws -&gt; Swift.Array&lt;SwiftGmp.Tokenizer.Token&gt;"
-                  moduleName = "SwiftGmpCMD"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/joachim/projects/SwiftGmp/Sources/SwiftGmp/Tokenizer.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "191"
-                  endingLineNumber = "191">
-               </Location>
-               <Location
-                  uuid = "F7BD7980-AFC4-4D58-8419-8A1AEBF68E63 - 15f67d2f817379e2"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "SwiftGmp.Tokenizer.parse(Swift.String) throws -&gt; Swift.Array&lt;SwiftGmp.Tokenizer.Token&gt;"
-                  moduleName = "SwiftGmpCMD"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/joachim/projects/SwiftGmp/Sources/SwiftGmp/Tokenizer.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "189"
-                  endingLineNumber = "189">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "D061B568-FEC3-4FFC-B353-30628A0C8613"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../SwiftGmp/Sources/SwiftGmp/Tokenizer.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "206"
-            endingLineNumber = "206"
-            landmarkName = "parse(_:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "D061B568-FEC3-4FFC-B353-30628A0C8613 - 15f67d2f81737a10"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "SwiftGmp.Tokenizer.parse(Swift.String) throws -&gt; Swift.Array&lt;SwiftGmp.Tokenizer.Token&gt;"
-                  moduleName = "SwiftGmpCMD"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/joachim/projects/SwiftGmp/Sources/SwiftGmp/Tokenizer.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "207"
-                  endingLineNumber = "207">
-               </Location>
-               <Location
-                  uuid = "D061B568-FEC3-4FFC-B353-30628A0C8613 - 15f67d2f81737a31"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "SwiftGmp.Tokenizer.parse(Swift.String) throws -&gt; Swift.Array&lt;SwiftGmp.Tokenizer.Token&gt;"
-                  moduleName = "SwiftGmpCMD"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/joachim/projects/SwiftGmp/Sources/SwiftGmp/Tokenizer.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "206"
-                  endingLineNumber = "206">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "E50EA585-9E9A-4DFA-8F1C-3D9E3B3C0DDB"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../SwiftGmp/Sources/SwiftGmp/Tokenizer.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
-            landmarkName = "debugDescription"
-            landmarkType = "24">
+            startingLineNumber = "178"
+            endingLineNumber = "178"
+            landmarkName = "Tokenizer"
+            landmarkType = "14">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
