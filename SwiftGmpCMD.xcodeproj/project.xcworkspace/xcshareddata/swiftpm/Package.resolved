@@ -1,0 +1,15 @@
+{
+  "originHash" : "1b4523c55cc2a55acdbc60da06c4efa8cca986212a6e428890fe1bcbe8a23403",
+  "pins" : [
+    {
+      "identity" : "swiftgmp",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/joachimneumann/SwiftGmp",
+      "state" : {
+        "revision" : "f19750229b2c32092b133accdde987b23e2cf0f7",
+        "version" : "1.0.3"
+      }
+    }
+  ],
+  "version" : 3
+}
