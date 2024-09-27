@@ -24,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		AA4578E42CA5807A004BEB3D /* SwiftGmpCMD */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftGmpCMD; sourceTree = BUILT_PRODUCTS_DIR; };
+		AADDAF492CA6371900D7ACB0 /* SwiftGmp */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = SwiftGmp; path = ../SwiftGmp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -49,6 +50,7 @@
 		AA4578DB2CA5807A004BEB3D = {
 			isa = PBXGroup;
 			children = (
+				AADDAF492CA6371900D7ACB0 /* SwiftGmp */,
 				AA4578E62CA5807A004BEB3D /* SwiftGmpCMD */,
 				AA4578E52CA5807A004BEB3D /* Products */,
 			);
